@@ -1,0 +1,19 @@
+{
+  "name": "helpy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Helpy — bot Discord modulaire de sécurité et de protection.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^16.6.1"
+  }
+}
