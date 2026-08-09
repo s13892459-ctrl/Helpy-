@@ -1,29 +1,10 @@
 {
-  "name": "helpy-security",
+  "name": "helprotect",
   "version": "1.0.0",
-  "description": "Helpy - Bot Discord professionnel de sécurité",
+  "private": true,
+  "description": "Discord security and protection bot",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
-  },
-  "keywords": [
-    "discord",
-    "security",
-    "discordjs",
-    "bot",
-    "helpy"
-  ],
-  "author": "Louis",
-  "license": "MIT",
-  "dependencies": {
-    "discord.js": "^14.22.1",
-    "dotenv": "^17.2.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
-  },
-  "engines": {
-    "node": ">=20.11.0"
-  }
+  "engines": { "node": ">=18.0.0" },
+  "scripts": { "start": "node index.js" },
+  "dependencies": { "discord.js": "^14.27.0", "dotenv": "^16.6.1" }
 }
